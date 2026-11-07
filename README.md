@@ -54,5 +54,13 @@ ls -l /downloads
 7. VirtualBox Snapshots
 [Snapshots](07-VirtualBox-Snapshots.png)
 
+Troubleshooting Experience
+
+Problem: Initially, I faced a "Permission Denied" error while trying to access the shared folder using /media/sf_KaliShare
+
+Solution: I checked the shared folder configuration and identified that the correct mount point was /downloads. I used the correct path and successfully created a test file.
+
+Result:The test file was successfully created in Kali Linux and verified in the Windows shared folder.
+
 Conclusion
 Successfully completed the Week 1 Cybersecurity Internship lab setup. Verified Kali Linux installation, network configuration, internet connectivity and shared folder functionality.
